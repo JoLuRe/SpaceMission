@@ -30,4 +30,7 @@ EL meu repositori conté:
 12. **estructura** de carpetes arrel, css i img pujada al repositori GitHub
 
 Moltes coses s'han deixat embastades perquè encara s'ha de definir en detall la dinàmica del joc.
-Per entendre la filosofia del joc, remetre's a la pàgina "How To Play"
+Per entendre la filosofia del joc, remetre's a la pàgina "How To Play".
+L'arquitectura del disseny consta de 5 divs principals.
+El de la nau i el de la lluna (al peu) ocupen només una part de la pantalla i no presenten problemes al redimensionar la pantalla.
+Les 3 zones verticals de 20, 40 i 40 % respectivament contenen el panell de control, la zona de navegació i el menú d'opcions.
